@@ -3,5 +3,7 @@ export default interface User{
     firstName:string,
     lastName:string,
     age:number,
-    image:string
+    image:string,
+    gender:string,
+    email: string,
 }
