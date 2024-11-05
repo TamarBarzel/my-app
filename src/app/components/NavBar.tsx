@@ -8,6 +8,7 @@ const NavBar: React.FC = () => {
     { href: "/pages/login", text: "Login" },
     { href: "/pages/users", text: "Users" },
     { href: "/pages/staticCounter", text: "StaticCounter" },
+    {href: "/pages/todoList",text:"TodoList"},
   ];
 
   return (
