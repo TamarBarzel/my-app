@@ -5,10 +5,11 @@ const NavBar: React.FC = () => {
   const buttons = [
     { href: "/pages/home", text: "Home" },
     { href: "/pages/contact", text: "Contact" },
-    { href: "/pages/login", text: "Login" },
     { href: "/pages/users", text: "Users" },
     { href: "/pages/staticCounter", text: "StaticCounter" },
     {href: "/pages/todoList",text:"TodoList"},
+    {href: "/pages/todoListServer",text:"TodoListServer"},
+
   ];
 
   return (
