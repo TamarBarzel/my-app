@@ -10,6 +10,17 @@ export const getTodos = async () => {
     throw error;
   }
 };
+
+export const getTasks = async () => {
+    try {
+      const response = await axios.get("http://localhost:3000/api/queryApi");
+      return response.data;
+    } catch (error) {
+      console.error("failed loading todos", error);
+      throw error;
+    }
+  };
+  
 export const getUsers = async () => {
   try {
     const response = await axios.get("https://dummyjson.com/users");
